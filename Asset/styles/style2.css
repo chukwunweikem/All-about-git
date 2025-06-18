@@ -1,0 +1,49 @@
+h1{
+    color: aqua;
+    background-color: black;
+}
+.group1{
+    color: blue;
+font-style: italic;
+font: bold;
+background-color: brown;
+}
+.group2{
+    color: red;
+    font-style: initial;
+    background-color: black;
+}
+.group3{
+    color: green;
+    font-style: inherit;
+    background-color: blueviolet;
+}
+#man{
+    color: brown;
+    background-color: blue;
+}
+#woman{
+    color: yellow;
+    background-color: black;
+}
+#child{
+    color: green;
+}
+.post > p{
+    background-color: black;
+    color: blueviolet;
+    font: bold;
+    font-style: italic;
+}
+.set > p{
+    background-color:black;
+    font-size: large;
+    font: bold;
+    color: brown;
+}
+.me > p{
+    background-color: chartreuse;
+    font: bold;
+    font-style: italic;
+    color: black
+}

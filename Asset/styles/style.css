@@ -1,0 +1,91 @@
+/*type Selector*/
+
+body{
+    background-color: purple;
+    color:white;
+}
+h1{
+    color: whitesmoke;
+    font-style: italic;
+    font-weight: bold;
+
+}
+h2{
+    background-color: white;
+    color: red;
+
+}
+label{
+    background-color: white;
+    color: pink;
+    
+}
+/*class selector*/
+.group1 {
+    background-color: brown;
+    font-size: 26px;
+    
+}
+
+.group2{
+    background-color: blueviolet;
+    padding: 10px;
+}
+.group1{
+    padding: 20px 0;
+    margin: 40px auto;
+    border: 2px solid yellow;
+}
+
+/*id selector*/
+
+#group{
+    text-align: center;
+    color:chartreuse;
+    background: black;
+}
+/*child selector*/
+
+.post>p{
+    background-color:blue;
+    color: white;
+    height: 250;
+    width: 250;
+    padding: 30px;
+    border-radius: 50px
+}
+/*Decendant selector*/
+
+.post span{
+    color: red;
+}
+/*Adject Sibling Selector*/
+
+h3 + p{
+    color: blueviolet;
+    font-style: italic;
+}
+ 
+/* General Selector*/
+
+h4 ~ p{
+    color: yellow;
+}
+/* Attribute Selector*/
+
+a[href]{
+    color: green;
+    font-size: bold;
+    text-transform: uppercase;
+}
+/*attribute Value Selector*/
+
+input[type="text"]{
+    height: 500;
+    width: 500;
+}
+/*Universal Selector*/
+
+*{
+    color: black;
+}

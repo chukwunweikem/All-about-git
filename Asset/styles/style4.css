@@ -1,0 +1,28 @@
+.container{
+    background-color: white;
+    color: black;
+    width: 800px;
+    height: 800px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-position: center;
+    padding-right:50%;
+
+}
+.la{
+    color: crimson;
+    font-style: italic;
+
+}
+a[href]{
+    color: green;
+}
+h2{
+    color: red;
+    font-style: italic;
+    font: bold;
+}
+p{
+    color: yellow;
+    font-style: italic;
+}

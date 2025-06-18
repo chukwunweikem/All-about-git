@@ -1,0 +1,19 @@
+#container{
+    background-color: black;
+    color: bisque;
+    background-position: center;
+    background-clip: border-box;
+}
+.box1,.box2,.box3{
+    padding: 20px;
+    width: 200px;
+    background-color: red;
+    border-bottom: blue;
+    border-style: solid;
+    border-width: 5px;
+    border-top-color: yellowgreen;
+    border-bottom-right-radius: 10px;
+    border-spacing: 10px;
+    background-position: center;
+
+}

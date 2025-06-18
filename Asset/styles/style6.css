@@ -1,0 +1,35 @@
+body{
+    background-color:black;
+
+}
+.h1{
+    background-color:black;
+    color:white;
+    text-decoration: none;
+    font-size: 50px;
+
+}
+.form{
+    background-color: rgba(255, 0, 0, 0.842);
+    color:white;
+}
+p{
+    background-color: magenta;
+    color:yellow;
+    margin: 15px;
+}
+a[href]{
+    color: green;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+img{
+    border-radius: 200px;
+    margin-left: auto;
+}
+input[type="text"]{
+    width: 1000px;
+    height: 30px;
+    border-radius: 30px;
+}

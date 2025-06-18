@@ -1,0 +1,61 @@
+ .menu li a:link{
+color:orange;
+font-weight: bold;
+text-transform: uppercase;
+}
+.menu li a:hover{
+color: blue;
+font: bold;
+font-style: italic;
+}
+.menu li a:active{
+    color: black;
+    font-size: 50px;
+}
+.menu li a:focus{
+    background-color: magenta;
+    text-decoration: blue;
+}
+
+.fruits li:first-child{
+    color:red;
+}
+
+.fruit li:last-child{
+    color: peru;
+}
+.fruits li:nth-child {
+    color: greenyellow;
+}
+/* Pseudo-elements  */
+.post p::first-letter {
+    font-size: 40px;
+    color:red;
+    font-style: italic;
+}
+.post p::first-line {
+    color: green;
+}
+.post p::before {
+    content:  "Chapter 1";
+    font-size: 30px;
+    color: blue;
+
+}
+
+.post p::after {
+    content: "Chapter 1";
+    font-size: 30px;
+    color: blue;
+
+}
+.content p::first-letter{
+    font-size: 70px;
+    text-transform: uppercase;
+    color:red;
+}
+.content p::after{
+    color:red;
+}
+
+
