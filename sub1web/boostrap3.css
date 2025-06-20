@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    /* font-weight: bolder; */
+    
+}
+.nav{
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+    position: relative;
+    left:200px;
+
+}
+.new{
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    word-spacing: 15px;
+    letter-spacing: 7px;
+    
+    
+}
+.nav ::first-letter{
+    color: red;
+    font-size: 80px;
+    font-style: italic;
+
+
+}
+.nav ::first-line{
+    color: green;
+}
+
+.images{
+    display: flex;
+    height: 40px;
+    margin-top: 40px;
+    position: relative;
+    left: 110px;
+}
+.photo{
+    display: flex;
+    height: 40px;
+    margin-top: 40px;
+    position: relative;
+    left: 550px;
+    bottom: 80px;
+}
+.pic{
+    display: flex;
+    height: 40px;
+    margin-top: 40px;
+    position: relative;
+    left: 1000px;
+    bottom: 160px;
+
+}
+.header :hover{
+    color: green;
+    font-weight: 300;
+}
